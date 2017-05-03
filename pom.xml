@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.paxxi.routing.machine</groupId>
-    <artifactId>PaxxiRoutingMachineHeroku</artifactId>
+    <artifactId>prm</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>PaxxiRoutingMachineHeroku</name>
+    <name>prm</name>
 
     <dependencyManagement>
         <dependencies>
@@ -54,7 +54,7 @@
     </dependencies>
 
     <build>
-        <finalName>PaxxiRoutingMachineHeroku</finalName>
+        <finalName>prm</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

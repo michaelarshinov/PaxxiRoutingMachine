@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* com.paxxi.routing.machine.PaxxiRoutingMachineHeroku.heroku.Main
+web: java -cp target/classes:target/dependency/* com.paxxi.routing.machine.prm.heroku.Main
