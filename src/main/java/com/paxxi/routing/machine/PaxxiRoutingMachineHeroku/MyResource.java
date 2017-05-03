@@ -20,6 +20,6 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
-        return "Hello, Heroku1!";
+        return "Hello, Heroku2!";
     }
 }
