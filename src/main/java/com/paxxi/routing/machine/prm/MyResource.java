@@ -45,4 +45,11 @@ public class MyResource {
     public String confirm(){
     	return "98903a8b";
     }
+    
+    @GET
+    @Path("confirm2")
+    @Produces({MediaType.TEXT_PLAIN}) 
+    public String confirm2(){
+    	return "19819013a8b";
+    }
 }
