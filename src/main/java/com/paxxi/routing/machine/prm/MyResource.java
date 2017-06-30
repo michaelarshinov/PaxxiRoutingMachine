@@ -2,6 +2,7 @@ package com.paxxi.routing.machine.prm;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
@@ -35,5 +36,13 @@ public class MyResource {
 //    		@Context HttpServletRequest request
     		) {
         return new Viewable("/form.jsp", null);
+    }
+    
+    
+    @POST
+    @Path("confirm")
+    @Produces({MediaType.TEXT_PLAIN}) 
+    public String confirm(){
+    	return "98903a8b";
     }
 }
